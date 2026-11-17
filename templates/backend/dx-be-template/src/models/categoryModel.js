@@ -1,5 +1,8 @@
 import sql, { getPool } from "../config/db.js";
 
+
+
+
 // GET ALL CATEGORIES
 export const findAllCategories = async () => {
   const pool = await getPool();
